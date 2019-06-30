@@ -1,3 +1,4 @@
+//定义一个函数可以在整型有序数组中查找想要的数字， 找到了返回下标，找不到返回-1.（折半查找）
 #include<stdio.h>
 void fun(int n, int arr[], int size){
     int left = 0;
