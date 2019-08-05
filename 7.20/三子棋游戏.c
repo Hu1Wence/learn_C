@@ -35,7 +35,7 @@ void Player_Move(char chess_board[ROW][COL]){
         int col = 0;
         scanf("%d %d", &row, &col);
         //看落子位置是否合法
-        if((row < 1 && row > ROW) || (col < 1 || col > COL)){
+        if((row < 1 && row > ROW) && (col < 1 || col > COL)){
         printf("您的输入有误!");
             continue;
         }
